@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
-  if(robots.length){
+  if(robots.length===0){
     throw new Error("no the cardlist is down")
   }
   else{
